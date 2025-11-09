@@ -1,0 +1,27 @@
+Measure of dispersion that indicates how far each individual data point is from the mean. This is the spread of each individual data point.
+
+The deviation of each data point from the mean is, the data value minus the mean:
+
+\[
+  x_i - \bar{X}
+\]
+
+Adding up each deviation and then divide by the number of data points, averages the deviation of every point from the mean. This is the average variance or spread of the data from the mean.
+
+\[
+  \dfrac{1}{n} \sum\limits_{i=1}^n (x_i - \bar{X})
+\]
+
+This has a problem. The values to the left of the mean result in negative values, and the ones to the right are positive. To solve this, the deviation of each data point is squared. This results in the \textbf{variance}, 
+
+The \textbf{sample variance} is represented by the letter $s$ squared, $s^2$. This is divided by the sample data minus 1, $n - 1$.
+
+\begin{listequbox}
+  {s^2 = \dfrac{1}{n-1} \sum\limits_{i=1}^n (x_i - \bar{X})^2}{equvarncsmp}{Sample variance}
+\end{listequbox}
+
+The \textbf{population variance} is represented by the greek letter sigma to the power of two, $\sigma^2$. This is divided by the total population data, $N$.
+
+\begin{listequbox}
+  {\sigma^2 = \dfrac{1}{N} \sum\limits_{i=1}^N (x_i - \mu)^2}{equvarncpop}{Population variance}
+\end{listequbox}
