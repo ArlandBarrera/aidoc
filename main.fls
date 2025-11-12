@@ -449,6 +449,9 @@ INPUT math/ref-math.tex
 INPUT ./math/def.tex
 INPUT ./math/def.tex
 INPUT math/def.tex
+INPUT ./math/euclediandist.tex
+INPUT ./math/euclediandist.tex
+INPUT math/euclediandist.tex
 INPUT ./math/sigmoid.tex
 INPUT ./math/sigmoid.tex
 INPUT math/sigmoid.tex
@@ -456,10 +459,10 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/lm/ts1-lmr12.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT ./algorithms/ref-algorithms.tex
 INPUT ./algorithms/ref-algorithms.tex
 INPUT algorithms/ref-algorithms.tex
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT ./algorithms/def.tex
 INPUT ./algorithms/def.tex
 INPUT algorithms/def.tex

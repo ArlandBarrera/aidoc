@@ -1,0 +1,21 @@
+Euclidean distance is the straight-line distance between two points in Euclidean space, calculated using the Pythagorean theorem. It's the most intuitive way to measure distance, found by taking the square root of the sum of the squared differences between the corresponding coordinates of the points.
+
+For \textbf{two points}, $A(x_1, y_1)$ and $B(x_2, y_2)$, the formula is:
+
+\[
+  d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+\]
+
+For \textbf{three points}, $A(x_1, y_1, z_1)$ and $B(x_2, y_2, z_2)$, the formula is:
+
+\[
+  d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2}
+\]
+
+The general formula extends by adding the squared difference for each additional coordinate.
+
+\begin{listequbox}
+  {d = \sqrt{\sum\limits_{i=1}^n (A_i - B_i)^2}}{equeucdst}{General Euclidean distance}
+\end{listequbox}
+
+where $n$ is the number of dimensions.
