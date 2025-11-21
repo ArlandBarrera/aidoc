@@ -1,0 +1,25 @@
+A dense neural network (DNN), also known as a \textbf{fully connected neural network} (FCN), is one of the fundamental architectures in deep learning. This architecture is well-suited for tasks involving structured data, like tabular data, as well as unstructured data when combined with other layers in hybrid models.
+
+In this type of artificial neural network each neuron in one layer is connected to every neuron in the following layer. This complete connectivity between neuron forms the core idea behind DNNs, allowing them to learn complex relationships in the data. Dense layers are commonly used in various deep learning models, and in practice, the excel when working with numerical or structured data.
+
+\large{\textbf{Architecture of Dense Neural Networks}}
+
+\textbf{1. Input Layer}
+
+The input layer is the first layer, receiving raw data features.
+
+\textbf{2. Hidden Layers}
+
+Hidden layers in DNNs are fully connected layers between the input and output layers. The network's depth, or the number of hidden layers, is what makes it ``deep''. Each layer transforms the data by applying weights and biases, adjusted during training.
+
+\textbf{Weights} are matrices that connect neurons between layers, determining the strength and direction of the connections.
+
+\textbf{Biases} are values added to the neuron's input to control the activation.
+
+\textbf{3. Output Layer}
+
+The output layer produces the final predictions. For classification tasks, this layer typically uses a softmax activation to produce probabilities, while for regression, a linear activation function may be more appropiate.
+
+\textbf{4. Activation Functions}
+
+Dense layers use activation functions to introduce non-linearities into the model, enabling it to capture complex patterns. Common functions include: ReLu, Sigmoid and Tanh.

@@ -1,0 +1,57 @@
+Rectified Linear Unit (ReLU) is a popular activation function used in neural networks, especially in deep learning models. It has become the default choice in many architectures due to it's simplicity and efficiency. The ReLU function is a piecewise linear function that outputs the input directly if it is positive, otherwise it outputs zero.
+
+It allows positive values to pass through unchanged while setting all negative values to zero. This helps the neural network maintain the necessary complexity to learn patterns while avoiding some of the pitfalls associated with other activation function, like the \textbf{vanishing gradient problem}.
+
+The ReLU function can be described mathematically as follows:
+
+\begin{listequbox}
+  {f(x) = \text{max}(0,x)}{equrelu}{ReLU function}
+\end{listequbox}
+
+Where:
+
+\begin{itemize}
+  \item $x$ is the input to the neuron.
+  \item The function returns $x$ if $x$ is greater than 0.
+  \item if $x$ is less than or equal to 0, the function returns 0.
+  \item The output range is $[0,\infty)$.
+\end{itemize}
+
+The function can also be written as:
+
+\[
+  f(x) =
+  \begin{cases}
+    x, & \text{if}\ x > 0 \\
+    0, & \text{if}\ x \le 0
+  \end{cases}
+\]
+
+This simplicity is what makes ReLU so effective in training deep neural networks, as it helps to maintain non-linearty without complicated transformations, allowing models to learn more efficiently.
+
+The plot of the function is shown bellow.
+
+\begin{grafica}
+\center
+\begin{tikzpicture}
+\begin{axis}[
+  axis lines=middle,
+  xmin=-12, xmax=11,
+  ymin=-0, ymax=11,
+  legend style={at={(0.35,0.9)}}
+  ]
+  \addplot[blue,thick,domain=-10:10] {max(0, x)};
+  \addlegendentry{ReLU}
+\end{axis}
+\end{tikzpicture}
+\caption{ReLU function}
+\end{grafica}
+
+This activation function is the most widely used for the following:
+
+\begin{itemize}
+  \item \textbf{Simplicity}: is computationally efficient as it involves only a thresholding operation. This makes it easy to implement and compute, which is important when training deep neural networks with millions of parameters.
+  \item \textbf{Non-linearty}: although it seems like a piecewise linear function, it is still a non-linear function. This allows the model to learn more complex data patterns and model intricate relashionships between features.
+  \item \textbf{Sparse Activation}: it's ability to output zero for negative inputs introduces sparsity in the model, meaning that only a fraction of neurons activate at any given time. This can lead to more efficient and faster computation.
+  \item \textbf{Gradient Computation}: it offers computational advantages in terms of backpropagation, as it's derivative is simple, either 0 or 1. This helps to avoid the vanishing gradient problem.
+\end{itemize}

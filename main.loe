@@ -1,18 +1,21 @@
-\contentsline {ecuacion}{\numberline {1.1}{\ignorespaces Sample mean}}{5}{ecuacion.1.1}%
-\contentsline {ecuacion}{\numberline {1.2}{\ignorespaces Population Mean}}{5}{ecuacion.1.2}%
-\contentsline {ecuacion}{\numberline {1.3}{\ignorespaces Weighted mean}}{6}{ecuacion.1.3}%
-\contentsline {ecuacion}{\numberline {1.4}{\ignorespaces Odd median}}{6}{ecuacion.1.4}%
-\contentsline {ecuacion}{\numberline {1.5}{\ignorespaces Even median}}{6}{ecuacion.1.5}%
-\contentsline {ecuacion}{\numberline {1.6}{\ignorespaces Range}}{7}{ecuacion.1.6}%
-\contentsline {ecuacion}{\numberline {1.7}{\ignorespaces Sample variance}}{7}{ecuacion.1.7}%
-\contentsline {ecuacion}{\numberline {1.8}{\ignorespaces Population variance}}{7}{ecuacion.1.8}%
-\contentsline {ecuacion}{\numberline {1.9}{\ignorespaces Sample standard deviation}}{8}{ecuacion.1.9}%
-\contentsline {ecuacion}{\numberline {1.10}{\ignorespaces Population standard deviation}}{8}{ecuacion.1.10}%
-\contentsline {ecuacion}{\numberline {1.11}{\ignorespaces Probability density function}}{8}{ecuacion.1.11}%
-\contentsline {ecuacion}{\numberline {1.12}{\ignorespaces Accuracy}}{9}{ecuacion.1.12}%
-\contentsline {ecuacion}{\numberline {1.13}{\ignorespaces Recall}}{9}{ecuacion.1.13}%
-\contentsline {ecuacion}{\numberline {1.14}{\ignorespaces Precision}}{10}{ecuacion.1.14}%
-\contentsline {ecuacion}{\numberline {1.15}{\ignorespaces F1-Score}}{10}{ecuacion.1.15}%
-\contentsline {ecuacion}{\numberline {2.1}{\ignorespaces General Euclidean distance}}{11}{ecuacion.2.1}%
-\contentsline {ecuacion}{\numberline {2.2}{\ignorespaces Sigmoid function}}{12}{ecuacion.2.2}%
-\contentsline {ecuacion}{\numberline {3.1}{\ignorespaces Naive Bayes theorem}}{14}{ecuacion.3.1}%
+\contentsline {ecuacion}{\numberline {1.1}{\ignorespaces Sample mean}}{6}{ecuacion.1.1}%
+\contentsline {ecuacion}{\numberline {1.2}{\ignorespaces Population Mean}}{6}{ecuacion.1.2}%
+\contentsline {ecuacion}{\numberline {1.3}{\ignorespaces Weighted mean}}{7}{ecuacion.1.3}%
+\contentsline {ecuacion}{\numberline {1.4}{\ignorespaces Odd median}}{7}{ecuacion.1.4}%
+\contentsline {ecuacion}{\numberline {1.5}{\ignorespaces Even median}}{7}{ecuacion.1.5}%
+\contentsline {ecuacion}{\numberline {1.6}{\ignorespaces Range}}{8}{ecuacion.1.6}%
+\contentsline {ecuacion}{\numberline {1.7}{\ignorespaces Sample variance}}{8}{ecuacion.1.7}%
+\contentsline {ecuacion}{\numberline {1.8}{\ignorespaces Population variance}}{8}{ecuacion.1.8}%
+\contentsline {ecuacion}{\numberline {1.9}{\ignorespaces Sample standard deviation}}{9}{ecuacion.1.9}%
+\contentsline {ecuacion}{\numberline {1.10}{\ignorespaces Population standard deviation}}{9}{ecuacion.1.10}%
+\contentsline {ecuacion}{\numberline {1.11}{\ignorespaces Probability density function}}{9}{ecuacion.1.11}%
+\contentsline {ecuacion}{\numberline {1.12}{\ignorespaces Accuracy}}{10}{ecuacion.1.12}%
+\contentsline {ecuacion}{\numberline {1.13}{\ignorespaces Recall}}{10}{ecuacion.1.13}%
+\contentsline {ecuacion}{\numberline {1.14}{\ignorespaces Precision}}{11}{ecuacion.1.14}%
+\contentsline {ecuacion}{\numberline {1.15}{\ignorespaces F1-Score}}{11}{ecuacion.1.15}%
+\contentsline {ecuacion}{\numberline {2.1}{\ignorespaces General Euclidean distance}}{12}{ecuacion.2.1}%
+\contentsline {ecuacion}{\numberline {2.2}{\ignorespaces ReLU function}}{13}{ecuacion.2.2}%
+\contentsline {ecuacion}{\numberline {2.3}{\ignorespaces Sigmoid function}}{14}{ecuacion.2.3}%
+\contentsline {ecuacion}{\numberline {2.4}{\ignorespaces Tanh function}}{15}{ecuacion.2.4}%
+\contentsline {ecuacion}{\numberline {2.5}{\ignorespaces Tanh function}}{15}{ecuacion.2.5}%
+\contentsline {ecuacion}{\numberline {3.1}{\ignorespaces Naive Bayes theorem}}{17}{ecuacion.3.1}%

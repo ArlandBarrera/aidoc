@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.5.31)  11 NOV 2025 20:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.5.31)  21 NOV 2025 00:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -605,7 +605,7 @@ Package: listings 2024/09/23 1.10c (Carsten Heinz)
 ) (./nuevos-comandos.tex (./hipervinculos.tex
 
 Package xr Warning: 
-No file statistics,math,algorithms/ref-statistics,math,algorithms.aux
+No file statistics,math,algorithms,neuralnetworks/ref-statistics,math,algorithms,neuralnetworks.aux
 LABELS NOT IMPORTED.
  on input line 16.
 
@@ -617,7 +617,11 @@ LABELS NOT IMPORTED.
 ) (./estilos.tex) (./listings.tex) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count349
-) (./main.aux)
+) (./main.aux
+
+LaTeX Warning: Label `equtanh' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
@@ -738,21 +742,23 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7.69997> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5.5> on input line 2.
-)
+
+
+[2
+
+])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
 
 
-[2
-
-] (./main.lop)
+[3] (./main.lop)
 \tf@lop=\write6
 \openout6 = `main.lop'.
 
 
 
-[3
+[4
 
 ] (./main.loe)
 \tf@loe=\write7
@@ -760,7 +766,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
  (./statistics/ref-statistics.tex
 
-[4
+[5
 
 ]
 Chapter 1.
@@ -768,64 +774,84 @@ Chapter 1.
 Package hyperref Info: bookmark level for unknown ecuacion defaults to 0 on input line 6.
 ) (./statistics/concepts/weighted_average.tex
 
-[5
+[6
 
 {/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]) (./statistics/concepts/median.tex) (./statistics/concepts/mode.tex) (./statistics/concepts/range.tex) (./statistics/concepts/variance.tex
 
-[6]) (./statistics/concepts/std_deviation.tex
+[7]) (./statistics/concepts/std_deviation.tex
 
-[7{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]) (./statistics/concepts/gaussian_dst.tex
+[8{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]) (./statistics/concepts/gaussian_dst.tex
 Package hyperref Info: bookmark level for unknown grafica defaults to 0 on input line 29.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[8]) (./statistics/metrics/accuracy.tex) (./statistics/metrics/recall.tex) (./statistics/metrics/precision.tex) (./statistics/metrics/f1.tex
+[9]) (./statistics/metrics/accuracy.tex) (./statistics/metrics/recall.tex) (./statistics/metrics/precision.tex) (./statistics/metrics/f1.tex
 
-[9])) (./math/ref-math.tex
+[10])) (./math/ref-math.tex
 
-[10]
+[11]
 Chapter 2.
-(./math/def.tex) (./math/euclediandist.tex) (./math/sigmoid.tex
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 27.
+(./math/def.tex) (./math/euclediandist.tex) (./math/activation_functions/relu.tex
+
+[12
+
+]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 14.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[11
+[13{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]) (./math/activation_functions/sigmoid.tex
+Missing character: There is no ] in font nullfont!
 
-{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}])) (./algorithms/ref-algorithms.tex
 
-[12]
+[14]) (./math/activation_functions/tanh.tex
+Missing character: There is no ] in font nullfont!
+) (./math/activation_functions/softmax.tex)) (./algorithms/ref-algorithms.tex
+
+[15]
 Chapter 3.
 (./algorithms/def.tex) (./algorithms/supervised/linear_regression.tex) (./algorithms/supervised/logistic_regression.tex) (./algorithms/supervised/knn.tex) (./algorithms/supervised/decision_tree.tex) (./algorithms/supervised/svm.tex) (./algorithms/supervised/naive_bayes.tex
 
-[13
+[16
 
-]) (./algorithms/optimization/gradient_descent.tex))
+]) (./algorithms/optimization/gradient_descent.tex)) (./neuralnetworks/ref-neuralnetworks.tex
 
-[14] (./main.aux)
+[17]
+Chapter 4.
+(./neuralnetworks/def.tex) (./neuralnetworks/perceptron/simple.tex) (./neuralnetworks/perceptron/mlp.tex) (./neuralnetworks/dnn.tex
+
+[18
+
+]) (./neuralnetworks/cnn.tex) (./neuralnetworks/rnn.tex))
+
+[19] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-04-29>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 86DA8DB5B4C007F14A014D1329C69E1F;3585.
+(rerunfilecheck)             Checksum: 7F8E1D5C7B214685CB5F43D88DEBAEBE;5213.
  ) 
 Here is how much of TeX's memory you used:
- 33976 strings out of 469590
- 785033 string characters out of 5470346
- 1282367 words of memory out of 5000000
- 60088 multiletter control sequences out of 15000+600000
+ 34138 strings out of 469590
+ 788879 string characters out of 5470346
+ 1282548 words of memory out of 5000000
+ 60197 multiletter control sequences out of 15000+600000
  686632 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,11n,108p,1193b,2100s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on main.pdf (14 pages, 233076 bytes).
+ 104i,19n,108p,1193b,2252s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmro12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on main.pdf (19 pages, 251944 bytes).
 PDF statistics:
- 386 PDF objects out of 1000 (max. 8388607)
- 337 compressed objects within 4 object streams
- 86 named destinations out of 1000 (max. 500000)
- 253 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 481 PDF objects out of 1000 (max. 8388607)
+ 424 compressed objects within 5 object streams
+ 109 named destinations out of 1000 (max. 500000)
+ 333 words of extra memory for PDF output out of 10000 (max. 10000000)
 
